@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Table:Table xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Table="http:///com/tibco/cep/decision/table/model/DecisionTable.ecore" name="ProcessList.sbdt" folder="src/main/resources">
+  <md>
+    <prop name="Priority" value="5"/>
+  </md>
+  <decisionTable>
+    <rule id="1">
+      <cond id="1_1" colId="1" expr="DoubleList[0]==10.15"/>
+      <cond id="1_2" colId="2" expr="StringList[0]==&quot;Element1&quot;"/>
+      <act id="1_4" colId="4" expr="append(StringList,&quot;AA&quot;)"/>
+      <act id="1_5" colId="5" expr="append(DoubleList,12.22)"/>
+    </rule>
+    <rule id="2">
+      <cond id="2_1" colId="1" expr="avg(DoubleList)>12"/>
+      <cond id="2_2" colId="2" expr="StringList[1]==&quot;Element2&quot;"/>
+      <act id="2_4" colId="4" expr="append(StringList,&quot;BB&quot;)"/>
+      <act id="2_5" colId="5" expr="append(DoubleList,122)"/>
+    </rule>
+    <rule id="3">
+      <cond id="3_3" colId="3" expr="length(TimeList)==0"/>
+      <cond id="3_2" colId="2" expr="contains(StringList,&quot;Element2&quot;)"/>
+      <cond id="3_1" colId="1" expr="contains(DoubleList,15)"/>
+      <act id="3_4" colId="4" expr="regexsplit(&quot;This is no more than mystery&quot;,&quot; &quot;)"/>
+      <act id="3_5" colId="5" expr="emptylist(12.34)"/>
+    </rule>
+    <columns>
+      <column id="2" name="EvaluateSTRList" propertyPath="" columnType="CUSTOM_CONDITION"/>
+      <column id="3" name="EvaluateTIMEList" propertyPath="" columnType="CUSTOM_CONDITION"/>
+      <column id="1" name="EvaluateDBLList" propertyPath="" columnType="CUSTOM_CONDITION"/>
+      <column id="4" name="OutStrList" propertyPath="" propertyType="10" columnType="CUSTOM_ACTION"/>
+      <column id="5" name="OutDblList" propertyPath="" propertyType="10" columnType="CUSTOM_ACTION"/>
+    </columns>
+  </decisionTable>
+</Table:Table>

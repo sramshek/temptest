@@ -1,0 +1,9 @@
+{
+  "version" : "1",
+  "artifactType" : {
+    "name" : "Decision Table",
+    "category" : "managed file"
+  },
+  "attributes" : { },
+  "creationTimeMilliseconds" : 1738826149348
+}
