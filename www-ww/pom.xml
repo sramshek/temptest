@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>www</groupId>
   <artifactId>ww</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.1-SNAPSHOT</version>
   <name></name>
   <description></description>
   <build>
@@ -22,16 +22,16 @@
         <directory>src\main\models</directory>
       </resource>
       <resource>
-        <directory>src\main\resources</directory>
+        <directory>src\main\flows</directory>
       </resource>
       <resource>
         <directory>src\main\pipelines</directory>
       </resource>
       <resource>
-        <directory>src\main\flows</directory>
+        <directory>src\main\schemas</directory>
       </resource>
       <resource>
-        <directory>src\main\schemas</directory>
+        <directory>src\main\resources</directory>
       </resource>
     </resources>
     <plugins>
