@@ -2,10 +2,10 @@
 <!--GENERATED POM FILE - DO NOT EDIT--><project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>project2</groupId>
-  <artifactId>project2</artifactId>
+  <groupId>project2_update</groupId>
+  <artifactId>project2_update</artifactId>
   <version>1.0.0-SNAPSHOT</version>
-  <name>project2</name>
+  <name>project2_update</name>
   <description>project2</description>
   <build>
     <resources>
