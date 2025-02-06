@@ -6,7 +6,7 @@ def generate_project_name():
     random_number = random.randint(9, 99999)
     project_name = "robot_project_" + str(random_number)
     return project_name
-
+wwww
 
 def generate_artifact_name():
     """Generate a random artifact name"""
