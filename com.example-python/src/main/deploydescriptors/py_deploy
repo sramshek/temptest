@@ -1,0 +1,15 @@
+{
+  "version" : "Streaming Deploy Descriptorv1",
+  "target" : {
+    "name" : "Sachin_RamshekharUpa",
+    "type" : "streaming cluster"
+  },
+  "description" : "",
+  "overrides" : null,
+  "visibleDeployerOnly" : false,
+  "visibility" : null,
+  "runDurationMinutes" : 0,
+  "schedule" : null,
+  "trace" : "disabled",
+  "seal" : false
+}

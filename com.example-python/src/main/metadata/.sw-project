@@ -1,0 +1,20 @@
+{
+  "version" : "1",
+  "approvedCloudResources" : [ ],
+  "creationTimeMilliseconds" : 1739287728662,
+  "lastModifiedTimeMilliseconds" : 1739287728662,
+  "permissionBindings" : {
+    "bindings" : {
+      "admin" : [
+        "read",
+        "approval",
+        "change permissions",
+        "delete",
+        "update",
+        "exists",
+        "create"
+      ]
+    }
+  },
+  "attributes" : { }
+}
